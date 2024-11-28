@@ -27,7 +27,8 @@ module.exports = {
     fontFamily:{
       manrope: ["Manrope", "serif"],
       fraunces: ["Fraunces", "serif"],
-    },fontWeight: {
+    },
+    fontWeight: {
       bold: 600,
       extrabold: 700,
       default: 400
