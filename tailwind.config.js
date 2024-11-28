@@ -25,7 +25,8 @@ module.exports = {
       white: "#FFFFFF"
     },
     fontFamily:{
-      work: ["Work Sans", "sans-serif"],
+      manrope: ["Manrope", "serif"],
+      fraunces: ["Fraunces", "serif"],
     },fontWeight: {
       bold: 600,
       extrabold: 700,
