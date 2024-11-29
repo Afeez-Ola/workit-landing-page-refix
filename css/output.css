@@ -711,8 +711,40 @@ h1, h2, h3, h4, h5, h6 {
   border-width: 1px;
 }
 
+.bg-purple-dark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(36 5 62 / var(--tw-bg-opacity, 1));
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.font-manrope {
+  font-family: Manrope, serif;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.font-bold {
+  font-weight: 600;
+}
+
 .italic {
   font-style: italic;
+}
+
+.leading-6 {
+  line-height: 1.5rem;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 .underline {
