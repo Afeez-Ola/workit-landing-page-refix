@@ -631,32 +631,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.visible {
-  visibility: visible;
-}
-
-.collapse {
-  visibility: collapse;
-}
-
-.relative {
-  position: relative;
-}
-
-.block {
-  display: block;
-}
-
 .flex {
   display: flex;
-}
-
-.table {
-  display: table;
-}
-
-.contents {
-  display: contents;
 }
 
 .hidden {
@@ -669,18 +645,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .w-full {
   width: 100%;
-}
-
-.border-collapse {
-  border-collapse: collapse;
-}
-
-.transform {
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.resize {
-  resize: both;
 }
 
 .flex-row {
@@ -703,22 +667,13 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-between;
 }
 
-.justify-evenly {
-  justify-content: space-evenly;
-}
-
-.border {
-  border-width: 1px;
-}
-
 .bg-purple-dark {
   --tw-bg-opacity: 1;
   background-color: rgb(36 5 62 / var(--tw-bg-opacity, 1));
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.p-6 {
+  padding: 1.5rem;
 }
 
 .font-manrope {
@@ -731,11 +686,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .font-bold {
-  font-weight: 600;
-}
-
-.italic {
-  font-style: italic;
+  font-weight: 400;
 }
 
 .leading-6 {
@@ -751,6 +702,18 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration-line: underline;
 }
 
-.outline {
-  outline-style: solid;
+.decoration-green {
+  text-decoration-color: #44FFA1;
+}
+
+.decoration-solid {
+  text-decoration-style: solid;
+}
+
+.decoration-4 {
+  text-decoration-thickness: 4px;
+}
+
+.underline-offset-8 {
+  text-underline-offset: 8px;
 }

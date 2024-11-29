@@ -11,6 +11,9 @@ module.exports = {
         "hero-mobile": "url('../assets/images/background-pattern-mobile.svg')",
         "hero-desktop": "url('../assets/images/background-pattern-desktop.svg')"
       },
+      textUnderlineOffset: {
+        8: '8px',
+      }
     },
     container: {
       center: true,
@@ -29,7 +32,7 @@ module.exports = {
       fraunces: ["Fraunces", "serif"],
     },
     fontWeight: {
-      bold: 600,
+      bold: 400,
       extrabold: 700,
       default: 400
     }
