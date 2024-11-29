@@ -32,7 +32,7 @@ module.exports = {
       fraunces: ["Fraunces", "serif"],
     },
     fontWeight: {
-      bold: 400,
+      bold: 600,
       extrabold: 700,
       default: 400
     }
