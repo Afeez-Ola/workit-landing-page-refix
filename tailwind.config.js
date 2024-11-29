@@ -13,7 +13,9 @@ module.exports = {
       },
       textUnderlineOffset: {
         8: '8px',
-      }
+      },
+      
+      
     },
     container: {
       center: true,
@@ -35,8 +37,9 @@ module.exports = {
       bold: 600,
       extrabold: 700,
       default: 400
-    }
+    },
+    
 
   },
-  plugins: [],
+  plugins: [require('tailwind-clip-path')],
 }

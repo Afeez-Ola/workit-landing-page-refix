@@ -30,4 +30,7 @@
   src: url('/assets/fonts/static/WorkSans-Regular.ttf') format('woff2');
  }
 
+ .clip-custom {
+clip-path: ellipse(100% 50% at 50% 30%);}
+
 }
