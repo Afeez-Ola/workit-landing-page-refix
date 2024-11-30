@@ -849,6 +849,14 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.5rem;
 }
 
+.leading-7 {
+  line-height: 1.75rem;
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
 .text-purple-dark {
   --tw-text-opacity: 1;
   color: rgb(36 5 62 / var(--tw-text-opacity, 1));
