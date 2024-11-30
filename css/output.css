@@ -596,7 +596,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .clip-custom {
-  clip-path: ellipse(100% 50% at 50% 30%);
+  clip-path: ellipse(120% 50% at 50% 20%);
 }
 
 .container {
@@ -643,12 +643,24 @@ h1, h2, h3, h4, h5, h6 {
   visibility: collapse;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
 }
 
-.z-10 {
-  z-index: 10;
+.top-24 {
+  top: 6rem;
+}
+
+.top-96 {
+  top: 24rem;
+}
+
+.m-auto {
+  margin: auto;
 }
 
 .mb-14 {
@@ -687,6 +699,14 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
+.w-11\/12 {
+  width: 91.666667%;
+}
+
+.w-11 {
+  width: 2.75rem;
+}
+
 .border-collapse {
   border-collapse: collapse;
 }
@@ -723,8 +743,25 @@ h1, h2, h3, h4, h5, h6 {
   gap: 2.5rem;
 }
 
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .border {
   border-width: 1px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-purple-default {
+  --tw-border-opacity: 1;
+  border-color: rgb(88 77 98 / var(--tw-border-opacity, 1));
 }
 
 .bg-green {
@@ -749,6 +786,10 @@ h1, h2, h3, h4, h5, h6 {
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.pb-96 {
+  padding-bottom: 24rem;
 }
 
 .text-center {
@@ -778,6 +819,26 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.75rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .font-bold {
   font-weight: 600;
 }
@@ -792,6 +853,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .leading-6 {
   line-height: 1.5rem;
+}
+
+.leading-4 {
+  line-height: 1rem;
+}
+
+.leading-5 {
+  line-height: 1.25rem;
 }
 
 .text-purple-dark {
