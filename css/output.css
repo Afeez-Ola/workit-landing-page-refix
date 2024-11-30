@@ -687,24 +687,20 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 
-.h-full {
-  height: 100%;
-}
-
-.h-16 {
-  height: 4rem;
-}
-
-.h-10 {
-  height: 2.5rem;
-}
-
 .h-12 {
   height: 3rem;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-11\/12 {
   width: 91.666667%;
+}
+
+.w-12 {
+  width: 3rem;
 }
 
 .w-full {
@@ -713,18 +709,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .w-11 {
   width: 2.75rem;
-}
-
-.w-16 {
-  width: 4rem;
-}
-
-.w-10 {
-  width: 2.5rem;
-}
-
-.w-12 {
-  width: 3rem;
 }
 
 .border-collapse {
@@ -763,32 +747,20 @@ h1, h2, h3, h4, h5, h6 {
   gap: 2.5rem;
 }
 
-.gap-6 {
-  gap: 1.5rem;
-}
-
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .rounded-full {
   border-radius: 9999px;
 }
 
-.rounded-large {
-  border-radius: 100%;
-}
-
 .border {
   border-width: 1px;
-}
-
-.border-2 {
-  border-width: 2px;
-}
-
-.border-solid {
-  border-style: solid;
 }
 
 .border-purple-default {
@@ -832,9 +804,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Manrope, serif;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-5xl {
@@ -855,11 +827,6 @@ h1, h2, h3, h4, h5, h6 {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .font-bold {
