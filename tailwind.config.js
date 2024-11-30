@@ -14,7 +14,9 @@ module.exports = {
       textUnderlineOffset: {
         8: '8px',
       },
-      
+      borderRadius: {
+        "large": "100%"
+      }
       
     },
     container: {
