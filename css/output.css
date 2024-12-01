@@ -711,6 +711,22 @@ h1, h2, h3, h4, h5, h6 {
   width: 2.75rem;
 }
 
+.w-10\/12 {
+  width: 83.333333%;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-9\/12 {
+  width: 75%;
+}
+
+.w-9 {
+  width: 2.25rem;
+}
+
 .border-collapse {
   border-collapse: collapse;
 }
@@ -735,6 +751,10 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
 }
 
+.justify-normal {
+  justify-content: normal;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -747,6 +767,10 @@ h1, h2, h3, h4, h5, h6 {
   gap: 2.5rem;
 }
 
+.gap-28 {
+  gap: 7rem;
+}
+
 .gap-4 {
   gap: 1rem;
 }
@@ -757,26 +781,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.gap-80 {
-  gap: 20rem;
-}
-
-.gap-40 {
-  gap: 10rem;
-}
-
-.gap-36 {
-  gap: 9rem;
-}
-
-.gap-32 {
-  gap: 8rem;
-}
-
-.gap-28 {
-  gap: 7rem;
 }
 
 .rounded-full {
@@ -875,10 +879,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .leading-7 {
   line-height: 1.75rem;
-}
-
-.leading-8 {
-  line-height: 2rem;
 }
 
 .text-purple-dark {
