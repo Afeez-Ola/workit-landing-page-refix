@@ -16,7 +16,7 @@ module.exports = {
       },
       borderRadius: {
         "large": "100%"
-      }
+      },
       
     },
     container: {
