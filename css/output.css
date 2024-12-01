@@ -912,6 +912,14 @@ h1, h2, h3, h4, h5, h6 {
   align-self: flex-end;
 }
 
+.text-wrap {
+  text-wrap: wrap;
+}
+
+.text-pretty {
+  text-wrap: pretty;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -993,6 +1001,16 @@ h1, h2, h3, h4, h5, h6 {
 .px-14 {
   padding-left: 3.5rem;
   padding-right: 3.5rem;
+}
+
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.px-24 {
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 .pb-96 {
@@ -1356,6 +1374,10 @@ h1, h2, h3, h4, h5, h6 {
     width: 33.333333%;
   }
 
+  .lg\:w-1\/4 {
+    width: 25%;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -1408,6 +1430,16 @@ h1, h2, h3, h4, h5, h6 {
   .lg\:px-14 {
     padding-left: 3.5rem;
     padding-right: 3.5rem;
+  }
+
+  .lg\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .lg\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
   }
 
   .lg\:pb-\[50rem\] {
