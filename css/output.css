@@ -671,6 +671,50 @@ h1, h2, h3, h4, h5, h6 {
   right: -5rem;
 }
 
+.-right-0 {
+  right: -0px;
+}
+
+.left-20 {
+  left: 5rem;
+}
+
+.right-20 {
+  right: 5rem;
+}
+
+.right-28 {
+  right: 7rem;
+}
+
+.right-40 {
+  right: 10rem;
+}
+
+.right-1 {
+  right: 0.25rem;
+}
+
+.-right-1 {
+  right: -0.25rem;
+}
+
+.-right-2 {
+  right: -0.5rem;
+}
+
+.-right-4 {
+  right: -1rem;
+}
+
+.-right-3 {
+  right: -0.75rem;
+}
+
+.top-80 {
+  top: 20rem;
+}
+
 .-z-10 {
   z-index: -10;
 }
@@ -1042,6 +1086,70 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (min-width: 768px) {
+  .md\:-right-20 {
+    right: -5rem;
+  }
+
+  .md\:-left-20 {
+    left: -5rem;
+  }
+
+  .md\:left-20 {
+    left: 5rem;
+  }
+
+  .md\:right-20 {
+    right: 5rem;
+  }
+
+  .md\:right-28 {
+    right: 7rem;
+  }
+
+  .md\:right-40 {
+    right: 10rem;
+  }
+
+  .md\:right-1 {
+    right: 0.25rem;
+  }
+
+  .md\:-right-1 {
+    right: -0.25rem;
+  }
+
+  .md\:-right-2 {
+    right: -0.5rem;
+  }
+
+  .md\:-right-4 {
+    right: -1rem;
+  }
+
+  .md\:-right-3 {
+    right: -0.75rem;
+  }
+
+  .md\:-right-0 {
+    right: -0px;
+  }
+
+  .md\:top-80 {
+    top: 20rem;
+  }
+
+  .md\:top-\[30rem\] {
+    top: 30rem;
+  }
+
+  .md\:mt-8 {
+    margin-top: 2rem;
+  }
+
+  .md\:mt-2 {
+    margin-top: 0.5rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1102,6 +1210,10 @@ h1, h2, h3, h4, h5, h6 {
     width: 16.666667%;
   }
 
+  .md\:w-8\/12 {
+    width: 66.666667%;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -1146,11 +1258,21 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 35rem;
   }
 
+  .md\:pb-\[40rem\] {
+    padding-bottom: 40rem;
+  }
+
   .md\:text-left {
     text-align: left;
   }
 
   .md\:text-start {
     text-align: start;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:-right-0 {
+    right: -0px;
   }
 }
