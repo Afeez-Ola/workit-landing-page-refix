@@ -5,7 +5,7 @@ This is a solution to the [Workit landing page challenge on Frontend Mentor](htt
 
 ### Screenshot
 
-![](/images/screenshot.png)
+![](/screenshot.png)
 
 
 
@@ -21,7 +21,7 @@ This is a solution to the [Workit landing page challenge on Frontend Mentor](htt
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
+- Tailwindcss
 - Mobile-first workflow
 
 
